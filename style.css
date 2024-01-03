@@ -2,8 +2,12 @@ body{
     margin: 0%;
     font-family: Bebas Neue;  
 }
+section{
+    height: 400px; ;
+    padding-bottom: 50px;
+}
 .top-banner{
-    background-color: black;
+    background: gray;
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -28,7 +32,7 @@ p{
     background-image: linear-gradient(180deg,tomato, lightSalmon);
     color: whitesmoke;
     border-radius: 5px;
-    font-size: larger; 
+    font-size: larger;  
 }
 .half-width img{
     width: 70%;
@@ -38,4 +42,13 @@ p{
 .about-txt{
     color: #363958;
     font-size: 48px; 
+}
+.about-banner{
+    background: rgb(149, 239, 171);
+}
+/* */
+.project-banner{
+    border-style: dashed;
+    border-color: #363958;
+    background: turquoise;
 }
