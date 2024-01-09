@@ -3,7 +3,7 @@ body{
     font-family: Bebas Neue;  
 }
 section{
-    height: 400px; ;
+    height: 400px; 
     padding-bottom: 50px;
 }
 .top-banner{
@@ -56,26 +56,42 @@ p{
 } */
 /* lastet work*/
 .project-banner{
-    background: wheat;    /* Deleted after*/
+    background: whitesmoke;    /* Deleted after*/
     margin: auto;
+    border-radius: 5px;
+}
+.project-banner h1{
     text-align: center;
 }
 .project-image{
     float: left;
     width: 30%;
-    margin-left: 2px;
-    padding: 5px;
-    box-shadow: 10px 10px 2cap rgba(210, 240, 222, 0.984);
-    border-radius: 10px;
+    margin: 20px;
+    padding-left: 2px;
+    border-radius: 10px; 
     height: 80%;
     background-color: whitesmoke;
+    box-shadow: 10px 10px 40px rgba(157, 157, 157, 0.984);
 }
 .image-container{
     width: 50%;
     padding: auto;
-    border-radius: 5px;
 }
-
+.image-container-kk{
+    width: 45%;
+    height: 37%;
+    border-radius: 18px;
+    background-color: rgba(247, 242, 255, 0.837);
+    display: inline-block;
+    padding: 10px;
+    overflow: hidden;
+}
+.name-project{
+    margin: 5px;
+}
+.project-image p{
+    margin: 5px;
+}
 /* Experience Area CSS */
 #company{
     text-decoration: none;
@@ -107,4 +123,57 @@ p{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, cyan, blue);
     border-image-slice: 1;
+}
+/* Working Inquiry CSS */
+.wi-working{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    padding-top: 10%; 
+}
+.wi-working img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;  
+}
+h2{
+    font-size: 30px;
+}
+.tag-im{
+    position: absolute;
+    top: 70%;
+    left: 550px;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+}
+.tag-im-half{
+    position: absolute;
+    top: 70%;
+    right: 400px;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+}
+.text-over-im{
+    text-decoration: none;
+    right: 1000px;
+    color: whitesmoke;
+    padding: 8px;
+    background-image: linear-gradient(180deg,tomato, lightSalmon);
+    border-radius: 2px;
+}
+
+/* buttom portion */
+.b-portion{
+    text-align: center;
+}
+.fo-p-h2 p{
+    color: #3E3E3E;
+}
+.f-id-logo img{
+    padding: 1%;
+    margin: 0 auto;
+}
+.logo{
+    width: 3%;
 }
